@@ -27,7 +27,6 @@ let calcularProductoEscalar = (
   return productoEscalar;
 };
 
-let dimension: number = 3;
 let dimension: number = Number(prompt("Ingrese la dimension del arreglo")); //PRACTICAR DE ESTA MANERA
 // En este caso deberian usar la funcion ya creada cargaArreglo(), pasarle por parametro arreglo y longitud
 let arreglo1: number[] = [3, 4, 5];
